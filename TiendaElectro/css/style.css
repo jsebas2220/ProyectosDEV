@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(201, 201, 191);
+}
+
+/* Aca diseñamos el menu de la navegación*/
+header {
+    background-color:#0d256b;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+
+}
+
+nav ul li{
+    padding: 12px;
+}
+
+.logo{
+    font-size: 30px;
+    flex: 1;
+}
+
+/* 1er Seccion*/
+h1{
+ text-align: center;
+ font-size: 35px;
+ color: rgb(34, 33, 32);
+}
+
+.portada{
+    width: 100%;
+    height: 200px;
+}
+
+/* 2da Seccion*/
+.seccionCentral{
+    background-color: rgb(184, 175, 175);
+    padding: 20px;
+    margin: 25px;    
+}
+
+
+article{
+    background-color: white;
+    width: 33.3%;
+    height: 300px;
+    margin: 15px;
+    padding: 45px;
+}
+
+.todosLosArticulos{
+    display: flex;
+}
+
+.imagenProducto{
+    width: 90%;
+    height: 250px;
+}
+
+/* Pie de pagina*/
+
+footer{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(231, 201, 191);
+}
+
+header {
+    background-color:#0d256b;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+
+}
+
+nav ul li{
+    padding: 12px;
+}
+.presentacion{
+   height: 600px;
+   background-image: url(https://images.pexels.com/photos/2797865/pexels-photo-2797865.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+   background-size: cover;
+
+}
+
+header {
+    background-color:darksalmon;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+
+}
+
+nav ul li{
+    padding: 12px;
+}
+
+.logo{
+    font-size: 30px;
+    flex: 1;
+}
+
+.contenido{
+    background-color: rgba(7, 7, 37, 0.712);
+    width: 80%;
+    margin: 0 auto;
+    position:sticky;
+    top: 180px;
+    height: 200px;
+    text-align: center;
+    padding: 20px 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.titulo{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 20px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+
+}
+
+.parrafo-presentacion {
+    font-style: oblique;
+}
+
+.boton-presentacion {
+    display: block;
+    margin: 0 auto;
+    margin-top: 270px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(221, 32, 32);
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+.boton-presentacion:hover {
+    background-color: rgb(221, 32, 32);
+    opacity: 0.9;
+}
+
+.seccionCentral{
+    background-color: rgb(231, 201, 201);
+    padding: 20px;
+    margin: 25px;    
+}
+
+.seccionCentral{
+    background-color: rgb(231, 201, 201);
+    padding: 20px;
+    margin: 25px;    
+}
+
+
+article{
+    width: 33.3%;
+    height: 300px;
+    margin: 20px;
+    padding: 45px;
+}
+
+.todosLosbebes{
+    display: flex;
+}
+
+.imagenProducto{
+    width: 90%;
+    height: 400px;
+}
+
+.item{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.vermas{
+    text-align: center;
+}
+
+.tabla2{
+    width: 250%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+.letra{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    font-style: oblique;
+    font-size: 20px;
+    display: flex;
+}
