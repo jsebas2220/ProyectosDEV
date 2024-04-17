@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  server:
+    container_name: level1_employees_server
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - 81:80
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+  app:
+    container_name: level1_employees_app
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www
+volumes:
+  dbdata:
